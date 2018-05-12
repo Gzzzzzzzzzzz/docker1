@@ -1,3 +1,3 @@
-FROM centos
-RUN yum update && yum install -y vim
-
+FROM ubuntu  
+RUN apt-get update; \  
+    apt-get -y upgrade
