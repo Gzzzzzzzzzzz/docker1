@@ -1,3 +1,4 @@
 FROM centos  
-RUN yum update; \  
-    yum -y git
+RUN yum update && yum install -y git && yum install  -y \ 
+    apache2 
+   
